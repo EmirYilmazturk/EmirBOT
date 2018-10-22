@@ -84,11 +84,6 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'işe yaramaz bot') {
-    msg.reply('**Öyle Olsun :sob: :sob: Bu İletilerinizin Hepsi Kurucuma Yapılmış Sayılacaktır :smiling_imp:** ');
-  }
-});
 
 client.elevation = message => {
   if(!message.guild) {
