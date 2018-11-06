@@ -9,6 +9,8 @@
   "author": "Emirhan",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "jimp": "^0.5.6"
   }
 }
