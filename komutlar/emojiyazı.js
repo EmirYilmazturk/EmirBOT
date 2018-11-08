@@ -25,7 +25,7 @@ const mapping = {
 
 exports.run = function(client, message, args) {
 
-	if (args.length < 1) return message.reply('Lütfen bir mesaj belirt. **Doðru Kullaným**: ?emojiyazý <mesaj>')
+	if (args.length < 1) return message.reply('Lütfen bir mesaj belirt. **Doðru Kullaným**: e!emojiyazý <mesaj>')
 		
 	message.channel.send(args.join(' ').split('').map(c => mapping[c] || c).join(' '));
 
