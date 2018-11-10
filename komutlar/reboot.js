@@ -2,9 +2,10 @@ const Discord = require('discord.js');
 
 exports.run = (client, message, args) => {
 	
-    message.channel.send(`Bot yeniden başlatılıyor...`).then(msg => {
+    message.channel.send(`:white_check_mark: Yeniden başlatılıyor...`).then(msg => {
     console.log(`BOT: Bot yeniden başlatılıyor...`);
     process.exit(0);
+    message.channel.send(`Bot Yeniden Başlatıldı. :white_check_mark:`)    
   })
 };
 
