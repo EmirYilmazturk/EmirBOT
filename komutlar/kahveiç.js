@@ -4,7 +4,7 @@
 exports.run = function(client, message) {
     
     const embed = new Discord.RichEmbed()
-        .setAuthor(message.author.username + ' Kahve İçti!')
+        .setTitle("command.author.username + ' Kahve İçti'")
         .setImage("https://cdn.discordapp.com/attachments/475678764643385344/485805902050623509/583.png")
         .setColor(0xFF0000)
 
