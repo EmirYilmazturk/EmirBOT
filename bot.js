@@ -85,7 +85,7 @@ client.on('message', msg => {
 });
 
     client.on("message", message => {
-    const dmchannel = client.channels.find("id", "503580697966149634");
+    const dmchannel = client.channels.find("id", "515631967526715410");
     if (message.channel.type === "dm") {
         if (message.author.id === client.user.id) return;
         dmchannel.sendMessage("", {embed: {
