@@ -84,6 +84,18 @@ client.on('message', msg => {
   }
 });
 
+    client.on("message", message => {
+    const dmchannel = client.channels.find("id", "503580697966149634");
+    if (message.channel.type === "dm") {
+        if (message.author.id === client.user.id) return;
+        dmchannel.sendMessage("", {embed: {
+                color: 3447003,
+                title: `Yazan: ${message.author.tag}`,
+                description: `${message.content}`
+              }})
+    }
+    if (message.channel.bot) return;
+});
 
 client.elevation = message => {
   if(!message.guild) {
