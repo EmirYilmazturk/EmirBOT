@@ -97,8 +97,8 @@ client.on('message', msg => {
 })
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'ii') {
-    msg.reply('**İyi Olduğuna Sevindim :smile:**');
+  if (msg.content.toLowerCase() === 'işe yaramaz bot') {
+    msg.reply('**Öyle Olsun :sob: :sob: Bunların Hepsi Kurucuma Yapılmış Sayılacaktır :smiling_imp:**');
   }
 })
   
