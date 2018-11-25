@@ -424,7 +424,7 @@ client.on('message', async msg => {
   
 client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'kasaaç') {
-    var sans = ["Bok ", "Stattrak AWP | Asiimov", "Karambit | Doopler 🗡", "Hatıra USP-S | Leş Onaylandı", "Kancalı Bicak | Fade 🗡", "Desert Eagle | Kizil Ağ", "Hatıra Dragon Lore", "Stattrak M4A1 | Uluma", "SGG 07 | Sudaki Kan", "Hatıra Glock 18 | Fade", "AWP | Medusa", "Desert Eagle | Alev", "Stattrak AK-47 | Vulkan",  "M4A1-S | Hiper Canavar",  "Hatıra M4A1-S | Altın Bobin", "Statrak AWP | Elektrikli Kovan", "P90 | Ecel Kedisi", "AWP | Yıldırım Çarpması", "Karambit | Mazi 🗡", "Hatıra Faction Bicaği 🗡"];
+    var sans = ["Hıyar ", "Stattrak AWP | Asiimov", "Karambit | Doopler 🗡", "Hatıra USP-S | Leş Onaylandı", "Kancalı Bicak | Fade 🗡", "Desert Eagle | Kizil Ağ", "Hatıra Dragon Lore", "Stattrak M4A1 | Uluma", "SGG 07 | Sudaki Kan", "Hatıra Glock 18 | Fade", "AWP | Medusa", "Desert Eagle | Alev", "Stattrak AK-47 | Vulkan",  "M4A1-S | Hiper Canavar",  "Hatıra M4A1-S | Altın Bobin", "Statrak AWP | Elektrikli Kovan", "P90 | Ecel Kedisi", "AWP | Yıldırım Çarpması", "Karambit | Mazi 🗡", "Hatıra Faction Bicaği 🗡"];
     var sonuc = sans[Math.floor((Math.random() * sans.length))];
     msg.reply(`Sana **${sonuc}** Çikti`)
   }
